@@ -47,7 +47,7 @@ img_color = cv.cvtColor(img, cv.COLOR_GRAY2BGR)
 for (x,y) in filtered:
     cv.rectangle(img_color, (x,y), (x + w, y + h), (0, 255, 0), 2)
 
-print ("Koyun Say�s� ", len(filtered))
+print ("Koyun Sayısı ", len(filtered))
 
 cv.imshow("original Image", img)
 cv.imshow("Negative Image", imgN)
